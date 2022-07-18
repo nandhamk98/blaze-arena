@@ -1,10 +1,10 @@
 import "./App.css";
+import { ComingSoonPage } from "./components/ComingSoonPage";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="Title">BLAZE ARENA</h1>
-      <p className="para">Opening Soon...</p>
+      <ComingSoonPage />
     </div>
   );
 }
